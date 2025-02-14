@@ -1,0 +1,180 @@
+*, html, body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  overflow-x: hidden;
+}
+body .container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+:root {
+  --title__font: "Oswald", serif;
+  --desc__font: "Fira Sans", serif;
+  --text__font: "Roboto", serif;
+  --default__color: #fff;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  background: url("../images/bg__header.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+header .header__inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+header .header__inner .header__title {
+  font-family: var(--title__font);
+  font-size: 48px;
+  font-weight: 600;
+  color: var(--default__color);
+}
+
+main {
+  width: 100%;
+  height: 100%;
+}
+main .invitation {
+  width: 100%;
+  height: 75vh;
+  background: #DCDCDC;
+  padding-bottom: 200px;
+}
+main .invitation .invitation__inner {
+  padding-top: 100px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+main .invitation .invitation__inner .invitation__desc {
+  font-size: 36px;
+  font-weight: 500;
+  font-family: var(--desc__font);
+  padding-bottom: 50px;
+}
+main .invitation .invitation__inner .invitation__title {
+  font-size: 24px;
+  font-weight: 500;
+  font-family: var(--title__font);
+  margin-bottom: 25px;
+}
+main .invitation .invitation__inner .invitation__list,
+main .invitation .invitation__inner .invitation__underdesc {
+  font-size: 16px;
+  font-weight: 500;
+  font-family: var(--text__font);
+}
+main .invitation .invitation__inner .invitation__list ul li,
+main .invitation .invitation__inner .invitation__underdesc ul li {
+  margin-bottom: 10px;
+}
+main .main__desc {
+  width: 100%;
+  height: 75vh;
+  margin-top: 100px;
+}
+main .main__desc .main__desc-inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+main .main__desc .main__desc-inner p {
+  font-size: 18px;
+  text-align: center;
+}
+main .main__desc .main__desc-inner .main__desc-btn {
+  width: 200px;
+  height: 50px;
+  margin: 0 auto;
+  border: 1px solid black;
+  cursor: pointer;
+  text-align: center;
+}
+main .main__desc .main__desc-inner .main__desc-btn .desc-btn__inner {
+  font-size: 24px;
+  width: 100%;
+  height: 100%;
+}
+main .opportunities {
+  width: 100%;
+  height: 75vh;
+  margin-top: 200px;
+}
+main .opportunities .opportunities__inner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+main .opportunities .opportunities__inner .opportunities__title {
+  font-size: 24px;
+  font-family: vat(--title__font);
+  font-family: var(--title__font);
+  text-align: center;
+  letter-spacing: 1.5px;
+  margin-bottom: 150px;
+}
+main .opportunities .opportunities__inner .opportunities__card-holder {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+main .opportunities .opportunities__inner .opportunities__card-holder .card {
+  width: 350px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+main .opportunities .opportunities__inner .opportunities__card-holder .card img {
+  border-radius: 100%;
+}
+main .opportunities .opportunities__inner .opportunities__card-holder .card .card__desc {
+  text-align: center;
+  font-family: var(--desc__font);
+}
+
+footer {
+  margin-top: 200px;
+  width: 100%;
+  height: 25vh;
+  background: #000;
+}
+footer .footer__inner {
+  width: 100%;
+  height: 100%;
+  color: rgb(102, 93, 93);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+/*# sourceMappingURL=styles.css.map */
