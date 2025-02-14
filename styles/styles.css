@@ -28,7 +28,7 @@ a {
 header {
   width: 100vw;
   height: 100vh;
-  background: url("../images/bg__header.jpg");
+  background-image: url("../images/bg__header.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
